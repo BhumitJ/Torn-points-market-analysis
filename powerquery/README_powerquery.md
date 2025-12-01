@@ -4,9 +4,9 @@ This is the Power Query to extract market data for any item from the Torn API. I
 The data pulled directly is in JSON and not in a tabular form. It is mostly under records and different layers. It can become messy and complicated to arrange neatly for viewing effectively.
 
 ## How to get any item data
-1. Open torn_excel_query.xls → Data → Get Data → Launch Power Query Editor.
+1. Open torn_excel_query.xlsm -> Data -> Get Data -> Launch Power Query Editor.
 2. There is a list of queries on the left-hand side. The top three will be the KEY, ITEM INFO, and MARKET DATA.
-3. The KEY is pulled in from the home sheet, so there's no need to do anything here. Put in your key in the designated space. 
+3. The KEY is pulled in from the home sheet, so there's no need to do anything here. Put in your key in the designated space in Home sheet. 
 4. You can use automated queries to pull item info and market data for a given item using its item ID. Please take a look below to know more about getting the item ID for any item in Torn. Please always make sure you enter the correct item ID.
 5. ITEM INFO pulls in the data about the item, which includes the ID, name, type and average_price.
 6. MARKET DATA pulls the real-time market listings of that item available in the Item Market in TORN CITY. It shows two columns, one for price and one for quantity. It won't display any other item info, so please be careful when entering the item ID.
