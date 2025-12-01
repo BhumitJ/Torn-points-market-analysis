@@ -1,6 +1,7 @@
 # Torn-points-market-analysis
-This repo tracks the prices of items used to get points at the museum. It includes real-time pricing and average market values for various sets and items used to exchange points, as well as for individual-item markets.
-A small data analysis/dashboard project that shows the cost of in-game item bundles (e.g. plushies/flowers → 10 points) using the Torn API and Excel Power Query. Useful for traders and for demonstrating API integration + valuation modelling.
+This repo tracks the prices of items used to get points at the museum in Torn City. It includes real-time pricing and average market values for various sets and items used to exchange points, as well as for individual-item markets. It also includes a built-in query to extract data for any item in Torn.
+
+NOTE - This is a small data analysis/dashboard project that shows the cost of in-game item sets (e.g. plushies/flowers → 10 points) using the Torn API and Excel Power Query. Useful for traders and for demonstrating API integration + valuation modelling.
 
 
 ## What this project contains
@@ -22,7 +23,7 @@ A small data analysis/dashboard project that shows the cost of in-game item bund
 
 ## How to reuse the Power Query
 How to reuse the Power Query for other items
-1. Open Excel → Data → Get Data → Launch Power Query Editor.
+1. Open Excel -> Data -> Get Data -> Launch Power Query Editor.
 2. There is a list of queries on the left-hand side.
 3. You can use the automated queries to pull out item info and market data for a given item using the item ID.
 4. Enter in item ID. (More details in README_powerquery.md)
