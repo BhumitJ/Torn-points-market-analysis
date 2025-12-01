@@ -1,0 +1,10 @@
+# Ignore accidental Excel files
+~$*.xls*
+*.xlsx
+*.xlsb
+
+# Ignore OS junk
+.DS_Store
+
+# Ignore temp
+*.tmp
