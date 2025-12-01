@@ -1,0 +1,5 @@
+These are some sample screenshots.
+`dashboard_home_overview` is just a preview of the Home sheet, where you enter your API, and it includes a refresh button with a summary of item sets and values.   
+`JSON_sample_respose_full_item_list` and `JSON_sample_respose_ID=384` are the API responses of the full items list available and torn, and the response for an item with ID = 384.  
+The pq_ screenshots are a preview of powerquery options, the built-in queries, and sample invoked queries for a different item ID. 
+`Sheet_Coin` and `Sheet_Plushies` are a preview of individual item set sheets in the workbook `excel/torn_points_market_dashboard.xlsm`
