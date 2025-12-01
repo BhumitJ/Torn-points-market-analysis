@@ -4,7 +4,7 @@ A small data analysis/dashboard project that shows the cost of in-game item bund
 
 
 ## What this project contains
-- `excel/torn_points_market_dashboard.xlsx` — Dashboard with sheets: `Plushies`, `Flowers`, 'Coins', etc. Each sheet loads live data via Power Query using the Torn API and calculates:
+- `excel/torn_points_market_dashboard.xlsm` — Dashboard with sheets: 'Plushies', 'Flowers', 'Coins', etc. Each sheet loads live data via Power Query using the Torn API and calculates:
   - Total cost to buy all individual items
   - Estimated cost per point (based on in-game exchange set)
   - Comparison table and best value determination
@@ -15,7 +15,7 @@ A small data analysis/dashboard project that shows the cost of in-game item bund
 ## How to use (quick)
 1. **Do not** share your Torn API key publicly. See *Config / API key* below.
 2. Download or clone the repo.
-3. Open `excel/torn_points_market_dashboard.xlsx`.
+3. Open `excel/torn_points_market_dashboard.xlsm`.
 4. Put your API key in the designated space (see `README_EXCEL.md` for exact steps).
 5. Click the adjacent Refresh button to refresh the queries (may take some time).
 6. If Excel asks for privacy/authentication settings for the web source, approve as required.
