@@ -1,5 +1,5 @@
 # Torn-points-market-analysis
-This repo tracks the prices of items used to get points at the museum in Torn City. It includes real-time pricing and average market values for various sets and items used to exchange points, as well as for individual-item markets. It also includes a built-in query to extract data for any item in Torn.
+This repo tracks the prices of items used to get points at the museum in Torn City. It includes real-time pricing and average market values for various sets and items used to exchange points, as well as for individual-item markets. It also contains a built-in query to extract data for any item in Torn.
 
 NOTE - This is a small data analysis/dashboard project that shows the cost of in-game item sets (e.g. plushies/flowers → 10 points) using the Torn API and Excel Power Query. Useful for traders and for demonstrating API integration + valuation modelling.
 
@@ -44,6 +44,12 @@ Detailed step-by-step in `powerquery/README_powerquery.md`.
 
 ## License
 Check LICENSE
+
+### Media & Data Usage
+All screenshots included in this repository are free to use for documentation, educational, or demonstration purposes.
+
+Sample JSON responses are from the public Torn API and are in the public domain.
+
 ---
 
 ## Contact / Author
