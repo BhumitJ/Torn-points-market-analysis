@@ -19,5 +19,15 @@ If you are interested in getting more item data, the Power Query editor includes
 
 ## Errors/Troubleshooting
 1. Excel may ask you in a security warning to enable content. You can go ahead and enable it.
-2. If you encounter a bad gateway, try again.
-3. There is a limit for requests per API in Torn (100 requests per minute). If you refresh too many times and encounter this error, wait a minute and try again.
+
+**1. "Bad Gateway" or 502 error**
+- Torn API rate limits requests.
+- Wait 30–60 seconds and click Refresh again.
+
+**2. Empty tables or blank data**
+- Check if your API key is correct.
+- Make sure the key has "market" access.
+
+**3. Incorrect values or loading errors**
+- Your internet connection may have failed during refresh.
+- Try Data → Refresh All again.
