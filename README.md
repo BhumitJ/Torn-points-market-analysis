@@ -2,7 +2,6 @@
 This repo tracks the prices of items used to get points at the museum. It includes real-time pricing and average market values for various sets and items used to exchange points, as well as for individual-item markets.
 A small data analysis/dashboard project that shows the cost of in-game item bundles (e.g. plushies/flowers → 10 points) using the Torn API and Excel Power Query. Useful for traders and for demonstrating API integration + valuation modelling.
 
----
 
 ## What this project contains
 - `excel/torn_points_market_dashboard.xlsx` — Dashboard with sheets: `Plushies`, `Flowers`, 'Coins', etc. Each sheet loads live data via Power Query using the Torn API and calculates:
@@ -12,7 +11,6 @@ A small data analysis/dashboard project that shows the cost of in-game item bund
 - `powerquery/` — Power Query (M) scripts and import instructions so you can neatly paste queries into Excel using API and item ID. (works for any item)
 - `data/sample_responses/` — sanitised example JSON responses for offline testing.
 - `docs/screenshots/` — Dashboard screenshots.
----
 
 ## How to use (quick)
 1. **Do not** share your Torn API key publicly. See *Config / API key* below.
@@ -22,17 +20,16 @@ A small data analysis/dashboard project that shows the cost of in-game item bund
 5. Click the adjacent Refresh button to refresh the queries (may take some time).
 6. If Excel asks for privacy/authentication settings for the web source, approve as required.
 
----
-
 ## How to reuse the Power Query
-1. Open Excel → Data → Get Data → .
-2. Advanced Editor → paste the content of `.m.txt`.
-3. Replace placeholders or configure Excel named cells to feed `product_id` and `api_key`.
-4. Close & Load.
+How to reuse the Power Query for other items
+1. Open Excel → Data → Get Data → Launch Power Query Editor.
+2. There is a list of queries on the left-hand side.
+3. You can use the automated queries to pull out item info and market data for a given item using the item ID.
+4. Enter in item ID. (More details in README_powerquery.md)
+5. The query will result in a neat, detailed tabled from the JSON returned by api. The market data will only have price and quantity. Please always make sure you enter the correct item ID.
+6. Close & Load to your workbook.
+Detailed step-by-step in `powerquery/README_powerquery.md`.
 
-Detailed step-by-step in `powerquery/import_instructions.md`.
-
----
 
 ## API key/config (security)
 - **Do not** store API keys in the repo.
@@ -41,6 +38,7 @@ Detailed step-by-step in `powerquery/import_instructions.md`.
 - There are different access levels. Public-only keys will do fine for this repo. However, if you encounter any errors, you can get a high-level key.
 - Official TORN API guide here - https://www.torn.com/api.html#
 - If you accidentally commit a key, rotate it immediately.
+- Misuse of APIs or stealing APIs may cause action from TORN.
 ---
 
 ## License
