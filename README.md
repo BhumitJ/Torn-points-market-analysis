@@ -10,8 +10,7 @@ NOTE - This is a small data analysis/dashboard project that shows the cost of in
   - Estimated cost per point (based on in-game exchange set)
   - Comparison table and best value determination
 - `powerquery/` — Power Query (M) scripts and import instructions so you can neatly paste queries into Excel using API and item ID. (works for any item)
-- `data/sample_responses/` — sanitised example JSON responses for offline testing.
-- `docs/screenshots/` — Dashboard screenshots.
+- `screenshots/` — Dashboard and other preview screenshots.
 
 ## How to use (quick)
 1. **Do not** share your Torn API key publicly. See *Config / API key* below.
