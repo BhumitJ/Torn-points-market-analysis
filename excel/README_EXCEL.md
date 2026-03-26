@@ -21,14 +21,20 @@ If you are interested in getting more item data, the Power Query editor includes
 ## Errors/Troubleshooting
 1. Excel may ask you in a security warning to enable content. You can go ahead and enable it.
 
-**1. "Bad Gateway" or 502 error**
+**1. Macros are disabled / Refresh button not working**
+- If clicking the Refresh button does nothing, macros are likely blocked.
+- Close Excel.
+- Right-click on the excel file - Properties - under the General tab check Unblock - click Apply.
+- Open the file again and click Enable Content / Enable Macros in the security warning banner at the top.
+
+**2. "Bad Gateway" or 502 error**
 - Torn API rate limits requests.
 - Wait 30–60 seconds and click Refresh again.
 
-**2. Empty tables or blank data**
+**3. Empty tables or blank data**
 - Check if your API key is correct.
 - Make sure the key has "market" access.
 
-**3. Incorrect values or loading errors**
+**4. Incorrect values or loading errors**
 - Your internet connection may have failed during refresh.
 - Try Data → Refresh All again.
