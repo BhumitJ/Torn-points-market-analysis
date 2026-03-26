@@ -22,13 +22,9 @@ If you are interested in getting more item data, the Power Query editor includes
 1. Excel may ask you in a security warning to enable content. You can go ahead and enable it.
 
 **1. Macros are disabled / Refresh button not working**
-
 - If clicking the Refresh button does nothing, macros are likely blocked.
-
 - Close Excel.
-
 - Right-click on the excel file - Properties - under the General tab check Unblock - click Apply.
-
 - Open the file again and click Enable Content / Enable Macros in the security warning banner at the top.
 
 **2. "Bad Gateway" or 502 error**
