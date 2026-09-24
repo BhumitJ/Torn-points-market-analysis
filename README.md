@@ -1,7 +1,7 @@
 # Torn-points-market-analysis
 Several item sets can be exchanged for museum points, at market prices that move constantly. This tracks all of the point sets and answers one question: which set is the cheapest route to points right now?
 
-Live pricing via the Torn API, in two forms — an Excel dashboard and a Power BI report — plus a reusable query that returns market data for any item in Torn.
+Live pricing via the Torn API, in two forms: an Excel dashboard and a Power BI report, plus a reusable query that returns market data for any item in Torn.
 
 NOTE - This is a data analysis/dashboard project that shows the cost of in-game item sets (e.g. plushies/flowers → 10 points) using the Torn API, Excel Power Query, and Power BI. Useful for traders and as a worked example of API integration, nested-JSON transformation, and cost modelling over volatile inputs.
 
